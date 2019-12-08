@@ -609,3 +609,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.08-19.49.29:394][993]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.129
 [2019.12.08-19.49.29:394][993]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
 [2019.12.08-19.50.23:714][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-19.53.18:941][405]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-19.53.34:003][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-20.00.41:319][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-20.00.43:612][916]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-20.00.43:641][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.12.08-20.00.43:738][916]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMapD86255BF494343F61FC155AF519ADD76.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.12.08-20.00.45:551][916]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap_BuiltData594970FD4B1456D4C37BCDAE6F34EEE6.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.08-20.00.48:902][967]LogConcert: Display: Synced activity '6' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
+[2019.12.08-20.00.54:894][982]LogConcert: Display: Synced activity '7' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.
