@@ -694,3 +694,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.08-21.05.25:192][732]LogEditorActor: Deleted Actor: StaticMeshActor
 [2019.12.08-21.05.25:212][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
 [2019.12.08-21.05.25:213][732]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2019.12.08-21.05.46:119][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.12.08-21.05.46:228][154]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap2D3DBDB744FBB1A7FB3F6A855FE92131.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.12.08-21.05.47:244][154]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap_BuiltDataAA46561F40B8C00780226CB05E182F12.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
