@@ -1,4 +1,4 @@
-﻿Log file open, 12/08/19 14:30:49
+﻿Log file open, 12/08/19 15:36:47
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: WalkingSim
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.060726
+LogStats: Stats thread started at 0.072601
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -132,7 +132,7 @@ LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line:  -EpicPortal -epicusername=Autisticon1437 -epicuserid=2d7e7e3250b74ec2bc307906b77f36c0 -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -163,458 +163,500 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:255][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:260][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.08-19.30.49:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.08-19.30.49:262][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.08-19.30.49:262][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.08-19.30.49:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.08-19.30.49:265][  0]LogHAL: Display: Platform has ~ 16 GB [17142661120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.08-19.30.49:265][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.08-19.30.49:265][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.08-19.30.49:266][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
-[2019.12.08-19.30.49:266][  0]LogInit: Computer: DESKTOP-4NG7PF0
-[2019.12.08-19.30.49:266][  0]LogInit: User: brent
-[2019.12.08-19.30.49:266][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.12.08-19.30.49:266][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.08-19.30.49:266][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.12.08-19.30.49:266][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.08-19.30.49:266][  0]LogMemory: Process Physical Memory: 100.66 MB used, 100.67 MB peak
-[2019.12.08-19.30.49:266][  0]LogMemory: Process Virtual Memory: 88.93 MB used, 88.93 MB peak
-[2019.12.08-19.30.49:266][  0]LogMemory: Physical Memory: 11362.11 MB used,  4986.41 MB free, 16348.52 MB total
-[2019.12.08-19.30.49:266][  0]LogMemory: Virtual Memory: 4656.43 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.12.08-19.30.49:269][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.08-19.30.49:288][  0]LogInit: Using OS detected language (en-US).
-[2019.12.08-19.30.49:288][  0]LogInit: Using OS detected locale (en-US).
-[2019.12.08-19.30.49:289][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.12.08-19.30.49:431][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.08-19.30.49:464][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.08-19.30.49:464][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.08-19.30.49:591][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.08-19.30.49:591][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.08-19.30.49:645][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.12.08-19.30.49:645][  0]LogD3D11RHI:       8079/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.12.08-19.30.49:646][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.08-19.30.49:646][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.08-19.30.49:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.08-19.30.49:655][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.08-19.30.49:655][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.12.08-19.30.49:655][  0]LogWindows: EnumDisplayDevices:
-[2019.12.08-19.30.49:655][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.12.08-19.30.49:656][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.12.08-19.30.49:656][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.12.08-19.30.49:656][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.12.08-19.30.49:656][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.12.08-19.30.49:656][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.12.08-19.30.49:656][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
-[2019.12.08-19.30.49:656][  0]LogD3D11RHI:      Driver Date: 11-20-2019
-[2019.12.08-19.30.49:656][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.12.08-19.30.49:688][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.08-19.30.49:702][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.08-19.30.49:936][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.08-19.30.49:943][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.08-19.30.49:951][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.08-19.30.49:958][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.08-19.30.49:965][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.08-19.30.49:973][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.08-19.30.49:980][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.08-19.30.49:987][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.08-19.30.49:991][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.08-19.30.50:017][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.08-19.30.50:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.08-19.30.50:019][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.08-19.30.50:035][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.08-19.30.50:035][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.08-19.30.50:048][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.08-19.30.50:048][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.08-19.30.50:055][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.08-19.30.50:061][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.08-19.30.50:067][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.08-19.30.50:075][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.08-19.30.50:098][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.08-19.30.50:098][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.08-19.30.50:098][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.08-19.30.50:106][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.08-19.30.50:156][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Shaders/WorkingDirectory/13076/).
-[2019.12.08-19.30.50:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brent/AppData/Local/Temp/UnrealShaderWorkingDir/CFEA03D945AAD1CA057BE08F9BA5AA24/'.
-[2019.12.08-19.30.50:158][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.08-19.30.50:158][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.08-19.30.50:158][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.08-19.30.50:645][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.08-19.30.50:685][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.08-19.30.50:693][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.08-19.30.50:693][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.08-19.30.50:693][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.08-19.30.50:694][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brent/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.08-19.30.50:694][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.08-19.30.50:694][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.08-19.30.50:710][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.08-19.30.50:712][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.08-19.30.50:712][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.08-19.30.50:753][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
-[2019.12.08-19.30.50:975][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.08-19.30.51:100][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.08-19.30.51:100][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.08-19.30.51:100][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.08-19.30.51:100][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.08-19.30.51:100][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.08-19.30.51:107][  0]LogNetVersion: WalkingSim 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3506671771)
-[2019.12.08-19.30.51:432][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.026388 seconds
-[2019.12.08-19.30.51:437][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.08-19.30.51:437][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.08-19.30.51:437][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.08-19.30.52:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.08-19.30.52:080][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.08-19.30.52:131][  0]SourceControl: Source control is disabled
-[2019.12.08-19.30.52:131][  0]SourceControl: Source control is disabled
-[2019.12.08-19.30.52:132][  0]SourceControl: Source control is disabled
-[2019.12.08-19.30.52:133][  0]SourceControl: Source control is disabled
-[2019.12.08-19.30.52:198][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.08-19.30.52:295][  0]LogOcInput: OculusInput pre-init called
-[2019.12.08-19.30.52:301][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.08-19.30.52:301][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.08-19.30.52:356][  0]LogEngine: Initializing Engine...
-[2019.12.08-19.30.52:357][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.08-19.30.52:357][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.08-19.30.52:517][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.08-19.30.52:528][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.08-19.30.52:549][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.12.08-19.30.52:590][  0]LogInit: FAudioDevice initialized.
-[2019.12.08-19.30.52:590][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.08-19.30.52:848][  0]LogDerivedDataCache: Saved boot cache 0.26s 73MB C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.08-19.30.52:852][  0]LogInit: Texture streaming: Enabled
-[2019.12.08-19.30.52:882][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.08-19.30.52:882][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.12.08-19.30.52:935][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.12.08-19.30.52:967][  0]LogInit: Transaction tracking system initialized
-[2019.12.08-19.30.52:994][  0]BlueprintLog: New page: Editor Load
-[2019.12.08-19.30.53:060][  0]LocalizationService: Localization service is disabled
-[2019.12.08-19.30.53:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/' took 0.00s
-[2019.12.08-19.30.53:259][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.08-19.30.53:259][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.08-19.30.53:405][  0]SourceControl: Source control is disabled
-[2019.12.08-19.30.53:406][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.08-19.30.53:406][  0]LightingResults: New page: Lighting Build
-[2019.12.08-19.30.53:408][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.08-19.30.53:408][  0]MapCheck: New page: Map Check
-[2019.12.08-19.30.53:408][  0]LightingResults: New page: Lighting Build
-[2019.12.08-19.30.53:426][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2019.12.08-19.30.53:623][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.12.08-19.30.53:638][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.08-19.30.53:658][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2019.12.08-19.30.53:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.08-19.30.53:659][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.156ms to complete.
-[2019.12.08-19.30.53:659][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.254
-[2019.12.08-19.30.53:785][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-19.30.53:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-19.30.53:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-19.30.53:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-19.30.53:806][  0]LogCollectionManager: Loaded 0 collections in 0.001593 seconds
-[2019.12.08-19.30.53:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Collections/' took 0.00s
-[2019.12.08-19.30.53:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/Developers/brent/Collections/' took 0.00s
-[2019.12.08-19.30.53:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/Collections/' took 0.00s
-[2019.12.08-19.30.53:811][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.12.08-19.30.53:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2873 classes and 697 folders.
-[2019.12.08-19.30.53:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.08-19.30.53:855][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.08-19.30.53:859][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.12.08-19.30.53:946][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.08-19.30.55:041][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.12.08-19.30.55:073][  0]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.08-19.30.55:082][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.08-19.30.55:146][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.12.08-19.30.55:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.08-19.30.55:233][  0]LogLoad: (Engine Initialization) Total time: 6.95 seconds
-[2019.12.08-19.30.55:233][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.08-19.30.55:283][  0]LogAssetRegistry: Asset discovery search completed in 4.5301 seconds
-[2019.12.08-19.30.55:285][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2019.12.08-19.30.55:285][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
-[2019.12.08-19.30.55:286][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.08-19.30.55:300][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.08-19.30.58:027][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.30.58:084][326]LogSlate: Window 'Project Settings' being destroyed
-[2019.12.08-19.30.58:087][326]LogSlate: Window 'Project Settings' being destroyed
-[2019.12.08-19.30.58:673][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.34.55:236][747]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={92201BE1-4558-22BA-9705-84B5A23C0194}
-[2019.12.08-19.39.55:240][715]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={1DA8BDBE-45EB-3E37-A92A-9095A5312397}
-[2019.12.08-19.39.55:240][715]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={4DFBCD37-42AA-7C7E-2ACD-86B0E88E9CD4}
-[2019.12.08-19.44.22:874][788]LogConcert: [Pending] Launching Unreal Multi-User Server...
-[2019.12.08-19.44.22:881][788]LogConcert: [Success] Launched Unreal Multi-User Server
-[2019.12.08-19.44.24:501][902]LogConcert: Display: Admin (9ED53BAB4BF8A771C712E6857DEE8478): Remote endpoint 'FEE005B24A771710ADF6C8815B6403CE' discovered.
-[2019.12.08-19.44.24:509][903]LogConcert: Display: Server DESKTOP-4NG7PF0 discovered.
-[2019.12.08-19.44.28:985][193]LogSlate: Window 'Delete Session Confirmation' being destroyed
-[2019.12.08-19.44.28:993][193]LogConcert: [Pending] Deleting Session...
-[2019.12.08-19.44.29:887][299]LogConcert: [Success] Deleted Session 'WalkingSim'
-[2019.12.08-19.44.40:709][595]LogConcert: [Pending] Creating Session 'WalkingSim'...
-[2019.12.08-19.44.40:709][595]LogConcert: [Pending] Creating Session 'WalkingSim'... - Validating Workspace...
-[2019.12.08-19.44.40:712][595]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.08-19.44.40:807][607]LogConcert: [Pending] Creating Session 'WalkingSim'... - Attempting Remote Connection...
-[2019.12.08-19.44.41:136][628]SourceControl: Source control is disabled
-[2019.12.08-19.44.41:137][628]SourceControl: Source control is disabled
-[2019.12.08-19.44.41:383][628]LogConcert: Display: Initialized Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
-[2019.12.08-19.44.41:383][628]LogConcert: Display: Connecting to Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
-[2019.12.08-19.44.41:391][629]LogConcert: Display: WalkingSim (A56A34F0489187AC238448900EF44411): Remote endpoint '093C0C3149E76820D647DD8DF2D0CA00' discovered.
-[2019.12.08-19.44.41:391][629]LogConcert: [Success] Created Session 'WalkingSim'
-[2019.12.08-19.44.41:426][632]LogConcert: Display: Connected to Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
-[2019.12.08-19.44.41:453][635]LogConcert: Display: Synced activity '1' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent joined the session.
-[2019.12.08-19.45.25:810][792]SourceControl: Source control is disabled
-[2019.12.08-19.45.31:577][418]LogSlate: Window 'Source Control Login' being destroyed
-[2019.12.08-19.45.43:481][844]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
-[2019.12.08-19.45.43:662][844]EditorErrors: Warning: No assets to check in!
-[2019.12.08-19.46.54:337][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.12.08-19.47.02:412][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.47.25:162][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
-[2019.12.08-19.47.42:823][969]LogSlate: Took 0.015748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.12.08-19.47.55:116][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.47.57:580][322]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.12.08-19.48.03:617][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.12.08-19.48.08:356][585]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.12.08-19.48.09:101][585]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.12.08-19.48.16:594][425]LogConcert: Display: Synced activity '2' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent locked /Script/Concert.
-[2019.12.08-19.48.16:724][440]SourceControl: fatal: /Script: '/Script' is outside repository
-[2019.12.08-19.48.18:101][597]LogSlate: Window 'Color Picker' being destroyed
-[2019.12.08-19.48.46:407][949]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
-[2019.12.08-19.48.46:573][949]EditorErrors: Warning: No assets to check in!
-[2019.12.08-19.48.53:056][712]LogSlate: Window 'Project Settings' being destroyed
-[2019.12.08-19.48.53:060][712]LogSlate: Window 'Project Settings' being destroyed
-[2019.12.08-19.48.54:226][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
-[2019.12.08-19.48.55:488][994]LogConcert: Display: Synced activity '3' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent locked EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
-[2019.12.08-19.48.56:310][ 90]LogConcert: Display: Synced activity '4' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent modified EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
-[2019.12.08-19.48.56:310][ 90]LogConcert: Display: Synced activity '5' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent unlocked EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
-[2019.12.08-19.48.56:893][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.12.08-19.48.58:628][363]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
-[2019.12.08-19.48.58:809][363]EditorErrors: Warning: No assets to check in!
-[2019.12.08-19.49.00:586][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.49.03:324][887]LogSlate: Window 'Message Log' being destroyed
-[2019.12.08-19.49.03:329][887]LogSlate: Window 'Message Log' being destroyed
-[2019.12.08-19.49.29:248][993]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.12.08-19.49.29:283][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2019.12.08-19.49.29:387][993]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap_Auto11A4FA48B4D0944AC27611B83856EC525.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2019.12.08-19.49.29:394][993]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.129
-[2019.12.08-19.49.29:394][993]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
-[2019.12.08-19.50.23:714][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-19.53.18:941][405]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.12.08-19.53.34:003][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.12.08-20.00.41:319][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-20.00.43:612][916]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.12.08-20.00.43:641][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2019.12.08-20.00.43:738][916]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMapD86255BF494343F61FC155AF519ADD76.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.12.08-20.00.45:551][916]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap_BuiltData594970FD4B1456D4C37BCDAE6F34EEE6.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.12.08-20.00.48:902][967]LogConcert: Display: Synced activity '6' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
-[2019.12.08-20.00.54:894][982]LogConcert: Display: Synced activity '7' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:385][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:389][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-20.36.47:389][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-20.36.47:390][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-20.36.47:390][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-20.36.47:390][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.08-20.36.47:393][  0]LogHAL: Display: Platform has ~ 16 GB [17142661120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.08-20.36.47:393][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.08-20.36.47:393][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-20.36.47:393][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.08-20.36.47:394][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Config/Windows/Engine.ini]
+[2019.12.08-20.36.47:394][  0]LogInit: Computer: DESKTOP-4NG7PF0
+[2019.12.08-20.36.47:394][  0]LogInit: User: brent
+[2019.12.08-20.36.47:394][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.08-20.36.47:394][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.08-20.36.47:394][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.12.08-20.36.47:394][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.08-20.36.47:394][  0]LogMemory: Process Physical Memory: 103.75 MB used, 103.75 MB peak
+[2019.12.08-20.36.47:394][  0]LogMemory: Process Virtual Memory: 88.75 MB used, 88.75 MB peak
+[2019.12.08-20.36.47:394][  0]LogMemory: Physical Memory: 12055.43 MB used,  4293.09 MB free, 16348.52 MB total
+[2019.12.08-20.36.47:395][  0]LogMemory: Virtual Memory: 4656.99 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.12.08-20.36.47:397][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.08-20.36.47:419][  0]LogInit: Using OS detected language (en-US).
+[2019.12.08-20.36.47:419][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.08-20.36.47:419][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.08-20.36.47:574][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.08-20.36.47:608][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.08-20.36.47:608][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.08-20.36.47:752][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-20.36.47:752][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.08-20.36.47:817][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.12.08-20.36.47:817][  0]LogD3D11RHI:       8079/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.08-20.36.47:820][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.08-20.36.47:820][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.08-20.36.47:820][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.08-20.36.47:827][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.08-20.36.47:827][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.08-20.36.47:827][  0]LogWindows: EnumDisplayDevices:
+[2019.12.08-20.36.47:827][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.12.08-20.36.47:827][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.12.08-20.36.47:828][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.12.08-20.36.47:828][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.12.08-20.36.47:828][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.08-20.36.47:828][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.12.08-20.36.47:828][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2019.12.08-20.36.47:828][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2019.12.08-20.36.47:828][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.12.08-20.36.47:866][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.08-20.36.47:884][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.08-20.36.48:220][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.08-20.36.48:228][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.08-20.36.48:236][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.08-20.36.48:244][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.08-20.36.48:252][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.08-20.36.48:260][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.08-20.36.48:268][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.08-20.36.48:275][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.08-20.36.48:279][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.08-20.36.48:309][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.08-20.36.48:311][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.08-20.36.48:326][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.08-20.36.48:327][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.08-20.36.48:340][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.08-20.36.48:340][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.08-20.36.48:347][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.08-20.36.48:354][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.08-20.36.48:360][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.08-20.36.48:368][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.08-20.36.48:392][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.08-20.36.48:392][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.08-20.36.48:392][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.08-20.36.48:401][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.08-20.36.48:462][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Shaders/WorkingDirectory/25148/).
+[2019.12.08-20.36.48:462][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brent/AppData/Local/Temp/UnrealShaderWorkingDir/2F2299A24B368C0B9A362CA223952349/'.
+[2019.12.08-20.36.48:465][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.08-20.36.48:465][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.08-20.36.48:465][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.08-20.36.49:019][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-20.36.49:065][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.08-20.36.49:075][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.08-20.36.49:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-20.36.49:075][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.08-20.36.49:076][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brent/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.08-20.36.49:076][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.08-20.36.49:076][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.08-20.36.49:093][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.08-20.36.49:095][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.08-20.36.49:096][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.08-20.36.49:142][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2019.12.08-20.36.49:393][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-20.36.49:524][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.08-20.36.49:524][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.08-20.36.49:524][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.08-20.36.49:524][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.08-20.36.49:524][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.08-20.36.49:533][  0]LogNetVersion: WalkingSim 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3506671771)
+[2019.12.08-20.36.49:886][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.036074 seconds
+[2019.12.08-20.36.49:893][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.08-20.36.49:893][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.08-20.36.49:893][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.08-20.36.50:755][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.08-20.36.50:758][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.08-20.36.50:897][  0]SourceControl: Source control is disabled
+[2019.12.08-20.36.51:533][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.08-20.36.51:666][  0]LogOcInput: OculusInput pre-init called
+[2019.12.08-20.36.51:673][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.08-20.36.51:673][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.08-20.36.51:746][  0]LogEngine: Initializing Engine...
+[2019.12.08-20.36.51:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-20.36.51:748][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.08-20.36.51:939][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.08-20.36.51:956][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.08-20.36.51:978][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.08-20.36.51:999][  0]LogInit: FAudioDevice initialized.
+[2019.12.08-20.36.51:999][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.08-20.36.52:131][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB C:/Users/brent/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-20.36.52:136][  0]LogInit: Texture streaming: Enabled
+[2019.12.08-20.36.52:155][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.08-20.36.52:155][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.08-20.36.52:155][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.08-20.36.52:194][  0]LogInit: Transaction tracking system initialized
+[2019.12.08-20.36.52:230][  0]BlueprintLog: New page: Editor Load
+[2019.12.08-20.36.52:320][  0]LocalizationService: Localization service is disabled
+[2019.12.08-20.36.52:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/' took 0.01s
+[2019.12.08-20.36.52:563][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.08-20.36.52:563][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.08-20.36.52:744][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.08-20.36.52:745][  0]LightingResults: New page: Lighting Build
+[2019.12.08-20.36.52:748][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-20.36.52:748][  0]MapCheck: New page: Map Check
+[2019.12.08-20.36.52:748][  0]LightingResults: New page: Lighting Build
+[2019.12.08-20.36.52:773][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.12.08-20.36.53:038][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.08-20.36.53:143][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.08-20.36.53:165][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.12.08-20.36.53:165][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.08-20.36.53:165][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2019.12.08-20.36.53:165][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.421
+[2019.12.08-20.36.53:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-20.36.53:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-20.36.53:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-20.36.53:356][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-20.36.53:404][  0]LogCollectionManager: Loaded 0 collections in 0.003179 seconds
+[2019.12.08-20.36.53:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Collections/' took 0.00s
+[2019.12.08-20.36.53:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/Developers/brent/Collections/' took 0.00s
+[2019.12.08-20.36.53:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/Collections/' took 0.00s
+[2019.12.08-20.36.53:412][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.12.08-20.36.53:424][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2873 classes and 697 folders.
+[2019.12.08-20.36.53:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.08-20.36.53:501][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.08-20.36.53:545][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.12.08-20.36.53:663][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.08-20.36.55:351][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.08-20.36.55:383][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.08-20.36.55:418][  0]LogSlate: Took 0.029259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.08-20.36.55:495][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.12.08-20.36.55:605][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.08-20.36.55:605][  0]LogLoad: (Engine Initialization) Total time: 9.46 seconds
+[2019.12.08-20.36.55:605][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.08-20.36.55:714][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.08-20.36.55:732][  0]LogSlate: Took 0.007034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-20.36.56:004][  4]LogAssetRegistry: Asset discovery search completed in 6.8625 seconds
+[2019.12.08-20.36.56:007][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.12.08-20.36.56:007][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.12.08-20.37.18:348][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-20.40.03:798][693]LogConcert: [Pending] Launching Unreal Multi-User Server...
+[2019.12.08-20.40.03:818][693]LogConcert: [Success] Launched Unreal Multi-User Server
+[2019.12.08-20.40.05:809][844]LogConcert: Display: Admin (E810DC0F473D3DC190D5849456E0CBCF): Remote endpoint '9C0BD8A646DC41219199068684637DE4' discovered.
+[2019.12.08-20.40.05:815][845]LogConcert: Display: Server DESKTOP-4NG7PF0 discovered.
+[2019.12.08-20.40.22:204][681]LogConcert: [Pending] Joining Session...
+[2019.12.08-20.40.22:204][681]LogConcert: [Pending] Joining Session... - Validating Workspace...
+[2019.12.08-20.40.22:208][681]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/2D/Paper2D/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Editor/CryptoKeys/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Editor/CryptoKeys/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Editor/CurveEditorTools/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Editor/CurveEditorTools/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Experimental/AutomationUtils/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Experimental/AutomationUtils/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Media/MediaCompositing/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository
+[2019.12.08-20.40.23:057][769]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository
+[2019.12.08-20.40.23:141][774]LogConcert: [Pending] Joining Session... - Attempting Remote Connection...
+[2019.12.08-20.40.24:169][775]LogConcert: Display: Initialized Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
+[2019.12.08-20.40.24:169][775]LogConcert: Display: Connecting to Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
+[2019.12.08-20.40.24:182][776]LogConcert: Display: WalkingSim (8D12C5424116870544754C8A121FE164): Remote endpoint '314989E24AE52CA76E3771AC120F5F84' discovered.
+[2019.12.08-20.40.24:182][776]LogConcert: [Success] Joined Session 'WalkingSim'
+[2019.12.08-20.40.24:293][777]LogConcert: Display: Connected to Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
+[2019.12.08-20.40.24:315][778]LogConcert: Display: Synced activity '1' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent joined the session.
+[2019.12.08-20.40.24:318][778]LogConcert: Display: Synced activity '2' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent locked /Script/Concert.
+[2019.12.08-20.40.24:320][778]LogConcert: Display: Synced activity '3' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent locked EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
+[2019.12.08-20.40.24:335][778]LogConcert: Display: Synced activity '4' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent modified EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
+[2019.12.08-20.40.24:337][778]LogConcert: Display: Synced activity '5' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent unlocked EditorCube11_5.StaticMeshComponent0 in /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
+[2019.12.08-20.40.26:909][  6]LogConcert: Display: Synced activity '6' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap.
+[2019.12.08-20.40.30:126][274]LogConcert: Display: Synced activity '7' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent saved package /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.
+[2019.12.08-20.40.30:129][274]LogConcert: Display: Synced activity '8' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent unlocked /Script/Concert.
+[2019.12.08-20.40.30:130][274]LogConcert: Display: Synced activity '9' produced by endpoint 'A56A34F0489187AC238448900EF44411': brent left the session.
+[2019.12.08-20.40.30:132][274]LogConcert: Display: Synced activity '10' produced by endpoint 'F23DEA8D46D24FEB9E7ED0ACF085970C': brent joined the session.
+[2019.12.08-20.40.30:134][274]LogConcert: Display: Synced activity '11' produced by endpoint 'F23DEA8D46D24FEB9E7ED0ACF085970C': brent locked /Script/Concert.
+[2019.12.08-20.40.30:135][274]LogConcert: Display: Synced activity '12' produced by endpoint 'F23DEA8D46D24FEB9E7ED0ACF085970C': brent unlocked /Script/Concert.
+[2019.12.08-20.40.30:136][274]LogConcert: Display: Synced activity '13' produced by endpoint 'F23DEA8D46D24FEB9E7ED0ACF085970C': brent left the session.
+[2019.12.08-20.40.30:138][274]LogConcert: Display: Synced activity '14' produced by endpoint 'A60F55E0409C007285E900BC4D1A33FC': brent joined the session.
+[2019.12.08-20.40.30:140][274]LogConcert: Display: Synced activity '15' produced by endpoint 'A60F55E0409C007285E900BC4D1A33FC': brent left the session.
+[2019.12.08-20.40.30:141][274]LogConcert: Display: Synced activity '16' produced by endpoint '8D12C5424116870544754C8A121FE164': brent joined the session.
+[2019.12.08-20.40.30:595][274]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.30:624][274]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-20.40.30:624][274]MapCheck: New page: Map Check
+[2019.12.08-20.40.30:625][274]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.30:731][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.12.08-20.40.30:754][274]LogAIModule: Creating AISystem for world Untitled
+[2019.12.08-20.40.31:030][274]LoadErrors: New page: New Map
+[2019.12.08-20.40.31:054][274]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.08-20.40.31:067][274]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2019.12.08-20.40.31:110][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.12.08-20.40.31:123][274]Cmd: MAP LOAD FILE="../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.08-20.40.31:123][274]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.31:123][274]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2019.12.08-20.40.31:123][274]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-20.40.31:123][274]MapCheck: New page: Map Check
+[2019.12.08-20.40.31:123][274]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.31:142][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.12.08-20.40.31:254][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.08-20.40.31:276][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.12.08-20.40.31:302][274]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.08-20.40.31:302][274]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2019.12.08-20.40.31:302][274]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.191
+[2019.12.08-20.40.34:235][448]LogSlate: Window 'Message' being destroyed
+[2019.12.08-20.40.36:112][448]LogSlate: Window 'Persist & Submit Files' being destroyed
+[2019.12.08-20.40.38:107][565]LogSlate: Window 'Message' being destroyed
+[2019.12.08-20.40.39:239][565]LogSlate: Window 'Persist & Submit Files' being destroyed
+[2019.12.08-20.40.39:247][565]LogConcert: [Pending] Persisting Session Changes
+[2019.12.08-20.40.39:699][565]LogConcert: [Pending] Persisting Session Changes - See Message Log
+[2019.12.08-20.40.39:699][565]LogConcert: [Success] Successfully Persisted Session Changes - Succesfully persisted session files
+[2019.12.08-20.40.39:705][565]LogConcert: Display: Disconnected from Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
+[2019.12.08-20.40.40:065][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/Engine/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/WalkingSim/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/Paper2D/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/AnimationSharing/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/ConcertSyncClient/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/CryptoKeys/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/CurveEditorTools/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/DatasmithContent/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/AutomationUtils/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/MagicLeap/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/MediaCompositing/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/OculusVR/' was aborted.
+[2019.12.08-20.40.40:066][565]LogDirectoryWatcher: A directory notification for 'C:/Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Intermediate/Concert/MultiUser/76E0D4464A3FAF6D53BBDBB027612174/DCF2ACCE4A2C4EE15B53CAA6F7ECC79F/Sandbox/SteamVR/' was aborted.
+[2019.12.08-20.40.40:068][565]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.40:069][565]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-20.40.40:069][565]MapCheck: New page: Map Check
+[2019.12.08-20.40.40:069][565]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.40:099][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.12.08-20.40.40:101][565]LogAIModule: Creating AISystem for world Untitled
+[2019.12.08-20.40.40:205][565]LoadErrors: New page: New Map
+[2019.12.08-20.40.40:247][565]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.08-20.40.40:277][565]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2019.12.08-20.40.40:298][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.12.08-20.40.40:299][565]Cmd: MAP LOAD FILE="../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.08-20.40.40:299][565]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.40:299][565]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2019.12.08-20.40.40:300][565]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-20.40.40:300][565]MapCheck: New page: Map Check
+[2019.12.08-20.40.40:300][565]LightingResults: New page: Lighting Build
+[2019.12.08-20.40.40:321][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.12.08-20.40.40:619][565]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.08-20.40.40:641][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.12.08-20.40.40:650][565]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.08-20.40.40:651][565]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2019.12.08-20.40.40:652][565]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.354
+[2019.12.08-20.40.40:720][565]LogConcert: Display: Shutdown Concert session 'WalkingSim' (Id: DCF2ACCE4A2C4EE15B53CAA6F7ECC79F, Owner: brent).
+[2019.12.08-20.40.41:147][565]LogConcert: Display: WalkingSim (8D12C5424116870544754C8A121FE164): Remote endpoint '314989E24AE52CA76E3771AC120F5F84' timed-out.
+[2019.12.08-20.40.41:192][567]LogConcert: Display: Server DESKTOP-4NG7PF0 lost.
+[2019.12.08-20.40.41:207][568]LogConcert: Display: Server DESKTOP-4NG7PF0 discovered.
+[2019.12.08-20.40.48:266][241]LogConcert: Display: Server DESKTOP-4NG7PF0 lost.
+[2019.12.08-20.41.43:232][339]LogConcert: Display: Admin (E810DC0F473D3DC190D5849456E0CBCF): Remote endpoint '9C0BD8A646DC41219199068684637DE4' timed-out.
+[2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message '0A9638284140F2F12C5A6BB2B405C21C' (ConcertAdmin_GetLiveSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
+[2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message '7303FAFD42800BFE4794DFBEFD39D738' (ConcertAdmin_GetArchivedSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
+[2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message 'DB2C8DCA496E4E031DD35FB92437BCE0' (ConcertAdmin_GetLiveSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
+[2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message 'F3F8ECB84C015524922026B43853A313' (ConcertAdmin_GetArchivedSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
