@@ -660,3 +660,37 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message '7303FAFD42800BFE4794DFBEFD39D738' (ConcertAdmin_GetArchivedSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
 [2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message 'DB2C8DCA496E4E031DD35FB92437BCE0' (ConcertAdmin_GetLiveSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
 [2019.12.08-20.41.43:232][339]LogConcert: Warning: Admin (E810DC0F473D3DC190D5849456E0CBCF): Message 'F3F8ECB84C015524922026B43853A313' (ConcertAdmin_GetArchivedSessionsRequest) timed-out sending to '9C0BD8A646DC41219199068684637DE4'.
+[2019.12.08-20.46.57:028][424]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={272BF87B-4601-F711-1AF3-33A11583295E}
+[2019.12.08-20.56.03:981][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2019.12.08-20.56.04:506][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2019.12.08-20.56.40:305][733]LogSlate: Took 0.005336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.08-20.57.14:240][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2019.12.08-20.57.24:385][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.12.08-20.57.25:434][417]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-20.57.50:451][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.12.08-20.57.50:555][587]LogSavePackage: Moving '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/FirstPersonExampleMap_Auto126926336476FD65629F68E8321045321.tmp' to '../../../../../../Users/brent/Documents/GitHub/UnrealEngine4/Walking Sim/WalkingSim/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.12.08-20.57.50:557][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.124
+[2019.12.08-20.57.50:557][587]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2019.12.08-21.01.01:332][156]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-21.01.23:753][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-21.01.25:136][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2019.12.08-21.01.26:337][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.12.08-21.01.27:283][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-21.02.43:152][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-21.04.55:098][489]LogSlate: Window 'Multi-User Browser' being destroyed
+[2019.12.08-21.04.55:101][489]LogSlate: Window 'Multi-User Browser' being destroyed
+[2019.12.08-21.04.56:449][493]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.08-21.04.56:451][493]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.08-21.05.06:697][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2019.12.08-21.05.07:238][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2019.12.08-21.05.07:641][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2019.12.08-21.05.10:417][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2019.12.08-21.05.15:054][604]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube11)
+[2019.12.08-21.05.15:254][604]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-21.05.17:191][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2019.12.08-21.05.18:402][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-21.05.24:753][732]Cmd: DELETE
+[2019.12.08-21.05.24:753][732]Cmd: ACTOR DELETE
+[2019.12.08-21.05.25:192][732]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.12.08-21.05.25:212][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.12.08-21.05.25:213][732]LogEditorActor: Deleted 1 Actors (0.103 secs)
